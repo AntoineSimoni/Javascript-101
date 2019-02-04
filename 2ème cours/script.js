@@ -42,13 +42,12 @@ myImg.setAttribute('alt', 'Random image');
 
 // Donnez la couleur 'blue' au premier paragraphe du div et la taille de la police '1.5rem'.
 firstP.style.color = 'blue';
-first.style.fontSize = '1.5rem';
+firstP.style.fontSize = '1.5rem';
 
 // Ajoutez la classe img a l'image.
 myImg.className ='my-class'; // my.Img;classname += 'another-class'
 myImg.classList.add ('my-class');
 myImg.classList.remove('some-class');
-
 
 
 const myBody = document.querySelector('body');
