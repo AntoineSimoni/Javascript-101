@@ -69,7 +69,7 @@ function renderImage(file, elId) {
 function getUploadError(file) {
   if (file.size > MAX_IMG_SIZE) { // on génère une erreur si la taille du fichier est supérieure a la taille max prévue
     return 'Your image is too big'; // on retourne un message indiquant l'erreur
-  } else if (!ACCEPTED_FORMATS.includes(file.type)) { //on génère une erreur si le format envoyé n'est pas parmis les formats accéptés
+  } else if (!ACCEPTED_FORMATS.includes(file.type)) { // on génère une erreur si le format envoyé n'est pas parmis les formats accéptés
     return 'Image of this format is not accepted'; // on retourne un message indiquant l'erreur
   } else {
     return;
